@@ -6,6 +6,16 @@
  *
  */
 
-int main() {
-  
+#include <stdio.h>
+#include <stdlib.h>
+int main(int argc, char const *argv[]){
+
+int dia = atoi(argv[1]);
+int mes = atoi(argv[2]);
+if (dia >= 20   && 6 <= mes) {
+  printf("falso\n");
+} else {
+  printf("verdadero\n");
+}
+  return 0;
 }
